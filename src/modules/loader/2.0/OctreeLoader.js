@@ -35,7 +35,7 @@ export class NodeLoader{
 			let {byteOffset, byteSize} = node;
 
 
-			let urlOctree = `${this.url}/../octree.bin`;
+			let urlOctree = `${this.url}/../octree`;
 
 			let first = byteOffset;
 			let last = byteOffset + byteSize - 1n;
@@ -245,7 +245,7 @@ export class NodeLoader{
 	async loadHierarchy(node){
 
 		let {hierarchyByteOffset, hierarchyByteSize} = node;
-		let hierarchyPath = `${this.url}/../hierarchy.bin`;
+		let hierarchyPath = `${this.url}/../hierarchy`;
 		
 		let first = hierarchyByteOffset;
 		let last = first + hierarchyByteSize - 1n;

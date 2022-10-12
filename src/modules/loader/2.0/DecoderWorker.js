@@ -16,7 +16,7 @@ const typedArrayMapping = {
 	"double": Float64Array,
 };
 
-Potree = {};
+//Potree = {};
 
 onmessage = function (event) {
 
@@ -104,7 +104,7 @@ onmessage = function (event) {
 			let f32 = new Float32Array(buff);
 
 			let TypedArray = typedArrayMapping[pointAttribute.type.name];
-			preciseBuffer = new TypedArray(numPoints);
+			let preciseBuffer = new TypedArray(numPoints);
 
 			let [offset, scale] = [0, 1];
 

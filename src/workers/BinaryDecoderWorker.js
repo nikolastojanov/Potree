@@ -16,7 +16,7 @@ const typedArrayMapping = {
 	"double": Float64Array,
 };
 
-Potree = {};
+//Potree = {};
 
 onmessage = function (event) {
 
@@ -168,12 +168,12 @@ onmessage = function (event) {
 			}
 
 			attributeBuffers[pointAttribute.name] = { buffer: buff, attribute: pointAttribute };
-		} else {
+		} else {//Potree = {};
 			let buff = new ArrayBuffer(numPoints * 4);
 			let f32 = new Float32Array(buff);
 
 			let TypedArray = typedArrayMapping[pointAttribute.type.name];
-			preciseBuffer = new TypedArray(numPoints);
+			let preciseBuffer = new TypedArray(numPoints);
 
 			let [min, max] = [Infinity, -Infinity];
 			let [offset, scale] = [0, 1];

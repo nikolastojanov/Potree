@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Potree", ".", "{58FA6BF5-9CF9-4134-BB8C-5D789D1F2CEA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52660"
+		Debug.AspNetCompiler.PhysicalPath = "..\Potree\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52660\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52660"
+		Release.AspNetCompiler.PhysicalPath = "..\Potree\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52660\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52660"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58FA6BF5-9CF9-4134-BB8C-5D789D1F2CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FA6BF5-9CF9-4134-BB8C-5D789D1F2CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD974FF8-F7BA-47E3-B311-AB6E7FD277B5}
+	EndGlobalSection
+EndGlobal

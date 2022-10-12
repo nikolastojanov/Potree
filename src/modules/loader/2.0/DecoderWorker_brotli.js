@@ -17,7 +17,7 @@ const typedArrayMapping = {
 	"double": Float64Array,
 };
 
-Potree = {};
+//Potree = {};
 
 function dealign24b(mortoncode){
 	// see https://stackoverflow.com/questions/45694690/how-i-can-remove-all-odds-bits-in-c
@@ -308,7 +308,7 @@ onmessage = function (event) {
 			let f32 = new Float32Array(buff);
 
 			let TypedArray = typedArrayMapping[pointAttribute.type.name];
-			preciseBuffer = new TypedArray(numPoints);
+			let preciseBuffer = new TypedArray(numPoints);
 
 			let [offset, scale] = [0, 1];
 
